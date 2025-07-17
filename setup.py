@@ -2,15 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-inline-actions',
-    version='2.1-patched',
-    description='Inline actions for Django admin (patched)',
+    version='2.1.0+patched',  # PEP 440 compliant
+    description='Inline actions for Django admin patched version',
+    author='ChibCha404 (patched)',
     packages=find_packages(),
     include_package_data=True,
-    install_requires=[
-        'Django>=2.2',
-    ],
-    classifiers=[
-        'Framework :: Django',
-        'Programming Language :: Python :: 3',
-    ],
+    install_requires=[],
 )
