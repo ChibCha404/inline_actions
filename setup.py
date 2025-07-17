@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='django-inline-actions',
+    name='inline-actions',
     version='2.1.0+patched',  # PEP 440 compliant
     description='Inline actions for Django admin patched version',
     author='ChibCha404 (patched)',
